@@ -1,20 +1,3 @@
-# from fastapi import FastAPI
-# from backend.routers import diagnostics
-# from fastapi.middleware.cors import CORSMiddleware
-
-# app = FastAPI()
-
-# # Allow requests from Streamlit
-# app.add_middleware(
-#     CORSMiddleware,
-#     allow_origins=["*"],  # You can restrict this to ["http://localhost:8501"] if preferred
-#     allow_credentials=True,
-#     allow_methods=["*"],
-#     allow_headers=["*"],
-# )
-
-# app.include_router(diagnostics.router, prefix="/api/v1/diagnostics")
-
 from fastapi import FastAPI
 from backend.routers import diagnostics, auth_router
 from fastapi.middleware.cors import CORSMiddleware
