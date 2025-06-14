@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+speedtest-cli
+pydantic
+python-multipart
+streamlit
+requests
+fpdf2
+pytz
+tzlocal
